@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMath_UI", "QuizMath_UI\QuizMath_UI.csproj", "{6D8802A7-F4C5-4FD5-AA9F-1395DBE3963B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMath_Affaire", "QuizMath_Affaire\QuizMath_Affaire.csproj", "{EEE0804C-3A8D-4862-90A8-9CA168FBD81E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D8802A7-F4C5-4FD5-AA9F-1395DBE3963B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8802A7-F4C5-4FD5-AA9F-1395DBE3963B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8802A7-F4C5-4FD5-AA9F-1395DBE3963B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8802A7-F4C5-4FD5-AA9F-1395DBE3963B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE0804C-3A8D-4862-90A8-9CA168FBD81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE0804C-3A8D-4862-90A8-9CA168FBD81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE0804C-3A8D-4862-90A8-9CA168FBD81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE0804C-3A8D-4862-90A8-9CA168FBD81E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2D9DA42-4616-49F1-8211-3BE8CADFD8FF}
+	EndGlobalSection
+EndGlobal

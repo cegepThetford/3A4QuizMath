@@ -1,0 +1,34 @@
+﻿<Window x:Class="QuizMath_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quiz" SizeToContent="WidthAndHeight" Width="325">
+    <StackPanel>
+        <TextBlock Text="Quiz arithmétique" FontSize="32" HorizontalAlignment="Center" Margin="10"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox Name="tbOperande1" IsEnabled="False" Text="99" Width="30" HorizontalContentAlignment="Right"/>
+            <TextBlock Name="tbOperateur" Text="+" Margin="5 0"/>
+            <TextBox Name="tbOperande2" IsEnabled="False" Text="99" Width="30" HorizontalContentAlignment="Right"/>
+            <TextBlock Text="=" Margin="5 0"/>
+            <!-- Ajouter l'événement KeyDown -->
+            <TextBox Name="tbResultat" Text="99" Width="30" HorizontalContentAlignment="Right"/>
+        </StackPanel>
+        <!-- Ajouter une barre de progression: min:0, max:100, hauteur:20, valeur initiale: 50, marges: 0 10 -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Bonnes réponses: " HorizontalAlignment="Right" Grid.Row="0" Grid.Column="0"/>
+            <TextBlock Text="Mauvaises réponses: " Grid.Row="1" Grid.Column="0"/>
+            <TextBlock Text="Moyenne: " HorizontalAlignment="Right" Grid.Row="2" Grid.Column="0"/>
+            <TextBlock Name="tbNbBonnesReponses" Text="999" Foreground="Blue" FontWeight="Bold" Grid.Row="0" Grid.Column="1"/>
+            <TextBlock Name="tbNbMauvaisesReponses" Text="999" Foreground="Blue" FontWeight="Bold" Grid.Row="1" Grid.Column="1"/>
+            <TextBlock Name="tbMoyenne" Text="50%" Foreground="Blue" FontWeight="Bold" Grid.Row="2" Grid.Column="1"/>
+        </Grid>
+    </StackPanel>
+</Window>
